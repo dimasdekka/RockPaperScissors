@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <p class="title">Rock Paper Scissors</p>
+    <div class="game-buttons">
+      <button class="move-button js-rock-button"><img class="move-icon" src="images/rock-emoji.png" alt=""></button>
+      <button class="move-button js-paper-button"><img class="move-icon" src="images/paper-emoji.png" alt=""></button>
+      <button class="move-button js-scissors-button"><img class="move-icon" src="images/scissors-emoji.png" alt=""></button>
+    </div>
+    
+    <p class="js-result">Start The Game</p>
+    <p class="js-moves">
+      Player
+      <img class="move-icon" src="images/rock-emoji.png" alt="">
+      <img class="move-icon" src="images/rock-emoji.png" alt="">
+      Computer
+    </p>
+    <p class="js-score"></p>
+    <div class="action-buttons">
+      <button class="reset-button">Reset Score</button>
+      <button class="auto-play">Auto Play</button>
+    </div>
+
+    <div class="popup" id="resetPopup">
+      <div class="popup-content">
+        <p>Are you sure want to reset the score?</p>
+        <div class="popup-buttons">
+          <button class="confirm-reset">Yes</button>
+          <button class="cancel-reset">No</button>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
